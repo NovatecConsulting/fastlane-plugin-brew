@@ -18,10 +18,10 @@ Allows to execute Homebrew/Linuxbrew commands within fastlane.
 
 ```ruby
 # Install Android-SDK
-brew "install android-sdk"
+brew(command:"install android-sdk")
 
 # Install Android-Studio on macOS
-brew "cask install android-studio"
+brew(command:"cask install android-studio")
 ```
 
 ## Run tests for this plugin

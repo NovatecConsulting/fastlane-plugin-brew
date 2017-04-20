@@ -21,7 +21,7 @@ module Fastlane
       end
 
       def self.details
-        'Example: brew("install imagemagick")'
+        'Example: brew(command:"install imagemagick")'
       end
 
       def self.available_options
@@ -35,7 +35,7 @@ module Fastlane
 
       def self.example_code
         [
-          'brew("install imagemagick")'
+          'brew(command:"install imagemagick")'
         ]
       end
 
